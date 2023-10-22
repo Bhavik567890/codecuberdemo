@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CSS for Sunburst Chart */
+.segment {
+  stroke: #fff;
+  transition: fill 0.3s;
+}
+
+.segment.highlight {
+  stroke: #000;
+  stroke-width: 2;
+  fill: #cccccc;
+}
+
+.label-tooltip {
+  pointer-events: none;
+}
+
+.segment-label {
+  font-size: 12px;
+  fill: #000;
+  pointer-events: none;
+}
+
+/* weekly calender css */
+
+/* Increase the space between days */
+.fc-time-grid.fc-day .fc-day-header {
+  padding: 20px 10px; /* Adjust as needed */
+}
+
+/* Style the day names */
+.fc-daygrid-day.fc-day .fc-day-top {
+  font-weight: bold;
+  font-size: 1.2em;
+  background-color: #f0f0f0; /* Change background color as needed */
+  border: 1px solid #ccc; /* Add a border to the day names */
+}
+
+.event-content {
+  margin: 0;
+  padding: 0;
+}
+
+.rbc-event-content{
+background-color: blue !important;
+}
