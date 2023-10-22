@@ -7,7 +7,7 @@ const SunBurstChartPage = lazy(() => import("./pages/SunBurstChart"));
 function App() {
   return (
     <>
-        <Suspense fallback={<h2>Loading....</h2>}>
+        <Suspense fallback={<h2 className="flex justify-center items-center">Loading....</h2>}>
       <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/chart" element={<SunBurstChartPage />} />
